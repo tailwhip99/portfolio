@@ -1,0 +1,21 @@
+.contacts {
+    display:flex;
+ gap:3vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4d4d4;
+    height:25vw;
+    width:100vw;
+
+    h1 {
+        text-shadow: 2px -1px 2px rgb(154, 154, 154);
+        font-weight: 1000;
+        text-decoration:double;
+        font-size:3vw;
+    }
+
+    p {
+        font-size:2vw;
+      font-style: italic;
+    }
+}

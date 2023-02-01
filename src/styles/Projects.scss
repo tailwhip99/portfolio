@@ -1,0 +1,128 @@
+.projects {
+    padding:15vw 0 15vw 0 ;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    height:150vw;
+    width:100vw;
+    background: linear-gradient(0deg, #27272a 0%, #001a323f 100%);
+ 
+    .projects-title {
+       
+       font-size: 2vw;
+       text-shadow: 0vw 0vw 1vw rgb(0, 0, 0);
+       margin:0vw 10vw 0 10vw;
+ display:flex;
+ justify-content: center;
+ 
+ margin-bottom:10vw;
+    }
+    .project-images {
+       display:flex;
+       flex-direction: column;
+       gap:20vw;
+ 
+ 
+    div {
+ 
+       
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       width:35vw;
+       height:30vw;
+  position: relative;
+  .image {
+    gap:1.5vw;
+    display:flex;
+    flex-direction: column;
+   
+    h1{
+       font-size:3vw;
+   text-shadow: 0rem 0.2rem 1rem black;
+    }
+    p {
+       font-size:1.8vw;
+    }
+  }
+ 
+  img {
+    position: relative;
+    max-width:35vw;
+    overflow: hidden;
+    max-height:35vw;
+ }
+    }
+    
+    .project-left {
+          box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.455);
+          margin-left:10vw;
+ 
+       .description {     
+          border:0.1rem solid rgba(0, 0, 0, 0.229);
+          gap:1.5vw;
+          box-shadow: 0vw 0vw  3vw rgba(0, 0, 0, 0.348);
+          padding: 1rem 2rem 1rem 2rem;
+          display:flex;
+          flex-direction: column;
+          position: absolute;
+          top:30%;
+          left:105%;
+          height:13vw;
+        
+       }
+      
+    }
+    .description{
+       font-size: 1.5vw;
+       
+     
+    }
+    .project-right {
+  
+       margin-left:55vw;
+       box-shadow: -1vw 1vw 1vw rgba(0, 0, 0, 0.455);
+ 
+       .description {
+          border:0.1rem solid rgba(0, 0, 0, 0.229);
+          gap:1.5vw;
+          display:flex;
+          flex-direction: column;
+          position: absolute;
+          box-shadow: 0vw 0vw  3vw rgba(0, 0, 0, 0.348);
+          padding: 1rem 2rem 1rem 2rem;
+          right:110%;
+          height:12vw;
+        
+       }
+    }
+    .btns {
+       gap:5vw;
+       height:1rem;
+ 
+      button {
+       text-decoration: none;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       width:10vw;
+       height:3vw;
+       font-size:2vw;
+       background-color: var(--blue);
+       border:0.1rem solid rgba(0, 0, 0, 0.022);
+      
+       a {
+          color:rgb(0, 0, 0);
+ 
+          text-decoration: none;
+        }
+     
+      }
+    }
+    }
+    
+    
+    
+    
+    
+  }
