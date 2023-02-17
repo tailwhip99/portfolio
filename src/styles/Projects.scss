@@ -57,16 +57,16 @@
     .project-left {
           box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.455);
           margin-left:10vw;
- 
+          border:0.1vw  solid rgb(149, 149, 149);
        .description {     
           border:0.1rem solid rgba(0, 0, 0, 0.229);
           gap:1.5vw;
           box-shadow: 0vw 0vw  3vw rgba(0, 0, 0, 0.348);
-          padding: 1rem 2rem 1rem 2rem;
+          padding: 1rem 2vw 1rem 4vw;
           display:flex;
           flex-direction: column;
           position: absolute;
-          top:30%;
+        
           left:105%;
           height:13vw;
         
@@ -81,8 +81,8 @@
     .project-right {
   
        margin-left:55vw;
-       box-shadow: -1vw 1vw 1vw rgba(0, 0, 0, 0.455);
- 
+       box-shadow:-1vw 2vw 1vw rgba(0, 0, 0, 0.455);
+       border:0.1vw  solid rgb(149, 149, 149);
        .description {
           border:0.1rem solid rgba(0, 0, 0, 0.229);
           gap:1.5vw;
@@ -90,7 +90,7 @@
           flex-direction: column;
           position: absolute;
           box-shadow: 0vw 0vw  3vw rgba(0, 0, 0, 0.348);
-          padding: 1rem 2rem 1rem 2rem;
+          padding: 1rem 2vw 1rem 2vw;
           right:110%;
           height:12vw;
         
@@ -110,13 +110,16 @@
        font-size:2vw;
        background-color: var(--blue);
        border:0.1rem solid rgba(0, 0, 0, 0.022);
-      
+      transition: background-color 2s;
        a {
           color:rgb(0, 0, 0);
  
           text-decoration: none;
         }
      
+      }
+      button:hover {
+         background-color: rgb(139, 198, 225);
       }
     }
     }
