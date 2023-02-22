@@ -31,6 +31,10 @@
           @media(max-width:800px) {
              height:8rem;
           }
+          @media only screen 
+          and (max-device-width: 1000px)
+          {     height:50vw;}
+          font-size:2vw
        }
        .about-me {
           font-size:3vw;
@@ -55,6 +59,11 @@
        p {
           font-size:2vw;
           padding-bottom:0.5vw;
+          @media only screen 
+   and (max-device-width: 1000px)
+   { font-size:3vw;
+      text-shadow:1rem 0.2rem 0.4rem  rgba(52, 52, 52, 0.38);
+   }
        }
     }
     .technologies {
@@ -73,6 +82,9 @@
           font-size: 1.2rem;
          
           width:30rem;
+          @media only screen 
+          and (max-device-width: 1000px)
+          {     font-size:1rem;}
        }
        .images {
          display:flex;
@@ -85,7 +97,9 @@
        
              box-shadow: 1vw 1vw 2vw rgba(0, 0, 0, 0.325);
              transition: height 0.1s ease-out 0.10s;
-       
+             @media only screen 
+             and (max-device-width: 1000px)
+             {     height:6vw;}
           }
           img:hover {
              height:6vw;

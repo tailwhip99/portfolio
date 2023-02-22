@@ -12,10 +12,16 @@
         font-weight: 1000;
         text-decoration:double;
         font-size:3vw;
+        @media only screen 
+        and (max-device-width: 1000px)
+        { font-size:4vw;}
     }
 
     p {
         font-size:2vw;
       font-style: italic;
+      @media only screen 
+      and (max-device-width: 1000px)
+      { font-size:3vw;}
     }
 }

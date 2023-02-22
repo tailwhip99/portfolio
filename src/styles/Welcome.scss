@@ -12,18 +12,31 @@
     color:red;
     background-color:blue
   }
-    .welcome-text {
+  .welcome-text-container {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+   @media only screen 
+   and (max-device-width: 1000px)
+   { width:65vw;}
+   .welcome-text {
+  
       
-    
-       overflow:hidden;
-     font-size: 4vw;
  
-   text-shadow: 2px 1px black;
-   animation: fadeInAnimation ease 3s;
-   animation-iteration-count: 1;
-   animation-fill-mode: forwards;
-   color:white;
- }
+      font-size: 4vw;
+  
+    text-shadow: 2px 1px black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color:white;
+    @media only screen 
+ and (max-device-width: 1000px)
+ { font-size:6vw}
+  }
+  }
+   
  .scroll-down {
     color:white;
    position: absolute;
